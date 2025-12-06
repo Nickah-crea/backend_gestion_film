@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/recherche")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://backendgestionfilm-production.up.railway.app")
 public class RechercheController {
     
     private static final Logger logger = LoggerFactory.getLogger(RechercheController.class);

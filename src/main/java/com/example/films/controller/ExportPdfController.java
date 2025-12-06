@@ -11,7 +11,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/export") 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://backendgestionfilm-production.up.railway.app")
 public class ExportPdfController {
 
     private final EmailService emailService;

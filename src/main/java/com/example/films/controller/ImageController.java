@@ -12,7 +12,7 @@ import java.nio.file.Paths;
 
 @RestController
 @RequestMapping("/images")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://backendgestionfilm-production.up.railway.app")
 public class ImageController {
     
     private final Path raccordsImagesPath;

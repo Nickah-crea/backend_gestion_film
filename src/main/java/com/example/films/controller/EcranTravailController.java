@@ -23,7 +23,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/ecran-travail")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://backendgestionfilm-production.up.railway.app")
 public class EcranTravailController {
     private static final Logger logger = LoggerFactory.getLogger(EcranTravailController.class);
     private final EpisodeService episodeService;

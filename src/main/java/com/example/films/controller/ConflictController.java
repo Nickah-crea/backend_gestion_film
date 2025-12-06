@@ -13,7 +13,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/conflicts")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://backendgestionfilm-production.up.railway.app")
 public class ConflictController {
     
     private final ConflictVerificationService conflictVerificationService;

@@ -16,7 +16,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/utilisateurs")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://backendgestionfilm-production.up.railway.app")
 public class UtilisateurController {
     private final UtilisateurService utilisateurService;
 

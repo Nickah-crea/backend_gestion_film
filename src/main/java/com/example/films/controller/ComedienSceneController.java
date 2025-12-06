@@ -12,7 +12,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/comedien-scene")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://backendgestionfilm-production.up.railway.app")
 public class ComedienSceneController {
     
     private final ComedienSceneService comedienSceneService;
